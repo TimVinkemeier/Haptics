@@ -23,7 +23,7 @@ With that knowledge, we can then identify and correct performance bottlenecks in
 About
 ############
 Haptics was created as part of my Computer Science Bachelor thesis. Although widely functional, it has only a prototype status and has not been tested thoroughly.
-All aspects of Haptics, its architecture and information on how to use it can be found in my Bachelor thesis: <URL>
+All aspects of Haptics, its architecture and information on how to use it can be found in my Bachelor thesis: http://sdrv.ms/Iu9obd
 
 License
 ############
