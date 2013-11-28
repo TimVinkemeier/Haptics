@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Haptics : Hadoop performance testing in concurrent job scenarios" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Haptics</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/TimVinkemeier/Haptics">View on GitHub</a>
+
+          <h1 id="project_title">Haptics</h1>
+          <h2 id="project_tagline">Hadoop performance testing in concurrent job scenarios</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/TimVinkemeier/Haptics/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/TimVinkemeier/Haptics/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h2>
+<a name="abstract" class="anchor" href="#abstract"><span class="octicon octicon-link"></span></a>Abstract</h2>
+
+<hr><p>In today’s world, a massive amount of data is generated and stored every second. Not only created by humans, but also by machines, such as log files or sensor data.
+Companies and research are interested in analysing this so-called “Big Data” and gaining insights which can be used to improve products, for example.
+Big Data today means terabytes or petabytes of data which require huge parallelism to be stored and processed. Since in these scales of data thousands of machines are used,
+efficiency of the computation is very important to reduce analysis times, energy consumption and therefore cost. With the invention of the MapReduce paradigm
+and the creation of Apache Hadoop as an implementation of this paradigm, the Big Data world has obtained great tools that revolutionized the way huge amounts of data
+can be analysed on large clusters of machines. Apache Hadoop as an open-source framework has seen significant contribution by large companies and research facilities.</p>
+
+<p>But although Hadoop has been around for some years and is now widely used in research as well as the industry, much of its behaviour and performance factors are still unclear. Hadoop has already been run on clusters with thousands of machines. Many different benchmarks have been created to measure various performance factors of Hadoop clusters. Although the framework has shown to scale very well in performance when running a single large job like one of these benchmarks, we still don’t know exactly how efficiency scales when running multiple jobs concurrently on large clusters, typical for today’s production applications.</p>
+
+<p>With Haptics, we set out to create a tool that allows the execution of custom-designed tests, that can be specifically tailored to measure one performance factor at a time, if desired. By using Haptics and applicable tests, we can hopefully find and understand the factors for concurrent job performance of Hadoop clusters. With that knowledge, we can then identify and correct performance bottlenecks in Hadoop’s implementation and therefore increase its efficiency. </p>
+
+<h2>
+<a name="about" class="anchor" href="#about"><span class="octicon octicon-link"></span></a>About</h2>
+
+<hr><p>Haptics was created as part of my Computer Science Bachelor thesis. Although widely functional, it has only a prototype status and has not been tested thoroughly.
+All aspects of Haptics, its architecture and information on how to use it can be found in my <a href="http://sdrv.ms/Iu9obd">Bachelor Thesis on SkyDrive</a></p>
+
+<h2>
+<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
+
+<hr><p>Haptics itself is published under the Apache 2.0 license.
+For further licensing Information please refer to the LICENSE.txt file provided in the Project.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Haptics maintained by <a href="https://github.com/TimVinkemeier">TimVinkemeier</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
