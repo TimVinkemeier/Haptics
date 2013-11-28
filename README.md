@@ -1,6 +1,6 @@
-# Haptics - Hadoop performance testing in concurrent job scenarios
-## Abstract
-***
+# Haptics
+##Hadoop performance testing in concurrent job scenarios
+### Abstract
 
 In today’s world, a massive amount of data is generated and stored every second. Not only created by humans, but also by machines, such as log files or sensor data.
 Companies and research are interested in analysing this so-called “Big Data” and gaining insights which can be used to improve products, for example.
@@ -18,13 +18,11 @@ With Haptics, we set out to create a tool that allows the execution of custom-de
 By using Haptics and applicable tests, we can hopefully find and understand the factors for concurrent job performance of Hadoop clusters.
 With that knowledge, we can then identify and correct performance bottlenecks in Hadoop’s implementation and therefore increase its efficiency. 
 
-## About
-***
+### About
 
 Haptics was created as part of my Computer Science Bachelor thesis. Although widely functional, it has only a prototype status and has not been tested thoroughly.
-All aspects of Haptics, its architecture and information on how to use it can be found in my Bachelor thesis: http://sdrv.ms/Iu9obd
+All aspects of Haptics, its architecture and information on how to use it can be found in my [Bachelor thesis](http://sdrv.ms/Iu9obd).
 
-## License
-***
+### License
 
 Please refer to the LICENSE.txt file.
